@@ -1,0 +1,573 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #444;
+    font-family: sans-serif;
+    border-top: 10px solid #1098ad;
+    position: relative;
+}
+
+.container {
+    width: 1200px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 0 auto;
+    /* position: relative; */
+}
+
+.main-header {
+    background-color: #f7f7f7;
+    /* padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px; */
+    padding: 20px 40px;
+    /* margin-bottom: 60px; */
+    /* height: 80px; */
+}
+
+nav {
+    font-size: 18px;
+}
+
+
+/* article {
+    margin-bottom: 60px;
+} */
+
+.post-header {
+    margin-bottom: 40px;
+}
+
+aside {
+    background-color: #f7f7f7;
+    border-top: 5px solid #1098ad;
+    border-bottom: 5px solid #1098ad;
+    padding: 50px 0;
+}
+
+
+/* h1,
+h2,
+h3,
+h4,
+p,
+li {
+    color: #444;
+} */
+
+h1,
+h2,
+h3 {
+    color: #1098ad;
+}
+
+h1 {
+    font-size: 26px;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 40px;
+    margin-bottom: 30px
+}
+
+h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+h4 {
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 22px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+ul,
+ol {
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+li {
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+
+li:last-child {
+    margin-bottom: 0;
+}
+
+
+/* footer p {
+    font-size: 16px;
+} */
+
+
+/* article header p {
+    font-style: italic;
+} */
+
+#author {
+    font-style: italic;
+    font-size: 18px;
+}
+
+#copyright {
+    font-size: 16px;
+}
+
+.related-author {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.related {
+    list-style: none;
+    margin-left: 0;
+}
+
+
+/* Styling links */
+
+a:link {
+    color: #1098ad;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #1098ad;
+}
+
+a:hover {
+    color: orange;
+    font-weight: bold;
+    text-decoration: underline orange;
+}
+
+a:active {
+    background-color: black;
+    font-style: italic;
+}
+
+.post-img {
+    width: 100%;
+    height: auto;
+}
+
+nav a:link {
+    margin-right: 30px;
+    display: inline-block;
+}
+
+nav a:link:last-child {
+    margin-right: 0;
+}
+
+.like {
+    font-size: 22px;
+    padding: 20px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+h1::first-letter {
+    font-style: normal;
+    margin-right: 5px;
+}
+
+h2 {
+    /* background-color: orange; */
+    position: relative;
+}
+
+h2::after {
+    content: "TOP";
+    background-color: #ffe70e;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 5px 10px;
+    position: absolute;
+    top: -10px;
+    right: -25px;
+}
+
+.sale p {
+    color: #fff;
+    background: red;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 10px 10px;
+    position: absolute;
+    top: -30px;
+    left: -40px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+
+/* CONFLICTING INTERESTS */
+
+
+/* 
+#copyright {
+    color: red;
+}
+
+.copyright {
+    color: blue;
+}
+
+.text {
+    color: yellow;
+}
+
+footer p {
+    color: green !important;
+} */
+
+
+/* Blog styling begins */
+
+
+/* .blog {} */
+
+.head-blog {
+    background-color: #f7f7f7;
+}
+
+.blog-header {
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 0;
+    /* grid-column: 1 / -1; */
+}
+
+
+/* #back-link {
+    color: black;
+    text-decoration: underline;
+} */
+
+.price {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    /* float: left; */
+    /* margin-top: 10px; */
+}
+
+.dress {
+    font-size: 15px;
+    /* float: left; */
+    margin-top: 0;
+}
+
+.colors {
+    display: flex;
+    /* align-items: flex-start; */
+    gap: 10px
+}
+
+.color {
+    background-color: #000;
+    display: flex;
+    height: 22px;
+    width: 22px;
+    /* display: inline-block;
+    margin-right: 10px; */
+}
+
+.color-blue {
+    background-color: blue;
+}
+
+.color-red {
+    background-color: #f30a0a;
+}
+
+.color-yellow {
+    background-color: #d9f010;
+}
+
+.color-green {
+    background-color: #03f00f;
+}
+
+.color-brown {
+    background-color: brown;
+}
+
+
+/* section a:link {
+    color: black;
+    text-decoration: underline;
+} */
+
+section a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+#prod-link {
+    color: black;
+    text-decoration: underline;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+#prod-link:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.shipping {
+    color: #777;
+    font-weight: bold;
+    font-size: 18px;
+    /* float: right; */
+    /* margin-top: 10px; */
+}
+
+.product {
+    color: black;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+section {
+    color: black;
+}
+
+section ul li {
+    list-style: square;
+    font-size: 14px;
+}
+
+.add-cart {
+    color: white;
+    background-color: black;
+    text-transform: uppercase;
+    border: none;
+    width: 100%;
+    padding: 10px 10px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.add-cart:hover {
+    color: black;
+    background-color: white;
+    border-top: 5px solid black;
+}
+
+.blog-container {
+    border: 5px solid black;
+    width: 825px;
+    margin: 50px auto;
+    position: relative;
+    /* margin-top: 50px; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* height: auto; */
+    /* margin-bottom: 60px; */
+    /* display: grid;
+    grid-template-columns: 250px 1fr 1fr;
+    gap: 40px; */
+}
+
+.cart-el {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+*/ .prices {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.prod-desc {
+    flex: 1;
+    /* margin-top: 20px; */
+    /* width: 243px; */
+    /* float: left; */
+    /* margin-left: 40px; */
+}
+
+.prod-details {
+    flex: 1;
+    /* margin-top: 20px; */
+    /* width: 243px; */
+    /* float: right;
+    margin-right: 40px; */
+}
+
+.chuck {
+    /* margin-top: 20px; */
+    flex: 1;
+    /* float: left; */
+}
+
+
+/*  */
+
+
+/* blog styling ends */
+
+
+/*  */
+
+
+/* FLOATS */
+
+
+/*
+.author-img {
+    float: left;
+    margin-bottom: 20px;
+}
+
+.author {
+    margin-top: 10px;
+    float: left;
+    margin-left: 20px;
+}
+
+h1 {
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.clearfix::after {
+    clear: both;
+    content: '';
+    display: block;
+}
+
+article {
+    width: 825px;
+    float: left;
+}
+
+aside {
+    width: 300px;
+    float: right;
+}
+
+footer {
+    clear: both;
+}*/
+
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.author-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.author {
+    margin-bottom: 0;
+    margin-left: 15px;
+}
+
+.related-post {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.related-link:link {
+    font-size: 17px;
+    font-weight: bold;
+    font-style: normal;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.related-author {
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+/* FLEXBOX LAYOUT */
+
+
+/* 
+.row {
+    display: flex;
+    align-items: flex-start;
+    gap: 75px;
+    margin-bottom: 60px;
+}
+
+article {
+    flex: 0 0 825px;
+    flex: 1;
+    margin-bottom: 0;
+}
+
+aside {
+    flex: 0 0 300px;
+} */
+
+
+/* CSS GRID LAYOUT */
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    column-gap: 70px;
+    row-gap: 60px;
+    align-items: start;
+}
+
+.main-header {
+    /* grid-column: 1 / span 2; */
+    grid-column: 1 / -1;
+}
+
+
+/* article {}
+
+aside {} */
+
+footer {
+    background-color: #1098ad;
+    grid-column: 1 / -1;
+}
